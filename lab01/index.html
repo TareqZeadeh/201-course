@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 1 Lab</title>
+
+    <style>
+        h1 {
+            background-color: aquamarine;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Class 1 Lab
+        </h1>
+    </header>
+    <main>
+        <p style="background-color: burlywood; color: rgb(117, 57, 14);">
+        The first question is about the visitor name .</p>
+        <p style="background-color: darkgray; color: rgb(23, 36, 36);">
+        The second question is about the visitor age.</p>
+        <p style="background-color: rgb(123, 241, 123); color: green;">
+        The third question is about the visitor favorite sporte.</p>
+        <p style="background-color: indigo; color: rgb(188, 177, 196);"> 
+        The fourth question is about what kind of cars the visitor like. </p>
+
+
+
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+
+        let username = prompt('what is your name?');
+        console.log("asking about his/her name .. " + username + '');
+        alert("wlecome her " + username + '');
+        let age = prompt("How old are you?");
+        console.log("asking about his/her age .. " + age + '');
+        if (age <= 30) {
+            alert('Good , You are young.');
+
+        }
+        if  (31 < age) {
+            alert('You are getting old, but the good thing is that your experience is so big in life that you have to share it with young people.');
+
+        }
+        
+        let favoritesport=prompt('what\'s your favorite sport?');
+        console.log(" asking about his/her favorite sport .. "+favoritesport+'');
+        alert(''+favoritesport+' is a goog sport , i like it.');
+
+        let carkind=prompt('what kind of cars you like?');
+        console.log('asking about kind of cars he/she like\'s .. '+carkind+'');
+        alert ('Amazing ... That\'s one of my favorite cars! .');
+
+        alert('So '+username+', your age is '+age+', your favorite sport is '+favoritesport+', and you like '+carkind+' cars .... it\'s a pleasure to meet you , you are welcome again , thank you for visiting us her.');
+
+    </script>
+
+</body>
+
+</html>
